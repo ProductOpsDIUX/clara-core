@@ -24,7 +24,7 @@ const platforms = [
     slug: "plane",
     label: "CLARA for Plane",
     repo: links.plane,
-    repoLabel: "ProductOpsDIUX/clara-plane",
+    repoLabel: "Access repo",
     body: "For programmes whose knowledge base lives in Plane. Artefacts file back as work items under the Knowledge Base hierarchy, cited by their native Plane identifiers.",
     mcp: "Plane MCP",
     connect:
@@ -46,7 +46,7 @@ const platforms = [
     slug: "confluence",
     label: "CLARA for Confluence",
     repo: links.confluence,
-    repoLabel: "ProductOpsDIUX/clara-confluence",
+    repoLabel: "Access repo",
     body: "For programmes whose knowledge base lives in Confluence. Artefacts file back as pages under the Knowledge Base hierarchy, with field notes tracked by CLARA's Session-ID scheme.",
     mcp: "Confluence MCP",
     connect:
