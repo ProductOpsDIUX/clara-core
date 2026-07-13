@@ -70,7 +70,7 @@ export const CodeBlock = forwardRef<HTMLPreElement, HTMLAttributes<HTMLPreElemen
           onClick={handleCopy}
           aria-label={copied ? "Copied" : "Copy to clipboard"}
           title={copied ? "Copied" : "Copy"}
-          className="absolute right-2 top-2 h-8 w-8 text-fg-subtle"
+          className="absolute right-2 top-2 h-8 w-8 text-fg-subtle hover:bg-bg-subtle hover:text-fg"
         >
           {copied ? (
             <Check className="h-4 w-4 text-success" aria-hidden />
